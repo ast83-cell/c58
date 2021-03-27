@@ -1,31 +1,35 @@
-body{
-    background: linear-gradient( #E1BEE7 0%,#90CAF9 100%);
-    text-align: center;   
-    
+body {
+    background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
+    text-align: center;
+
 }
 
-img{
+img {
     border-radius: 50%;
     width: 100px;
 }
 
-h1{
+h1 {
     text-shadow: 2px 2px;
-    font-size:20px;
+    font-size: 20px;
 }
 
-p{
+p {
     padding: 20px;
     font-size: 18px;
     text-align: center;
 }
 
-.menu{
+.menu {
     list-style: none;
     font-family: cursive;
-    float:right;
+    float: right;
     top: 10px;
     right: 30px;
     cursor: pointer;
     color: black;
+}
+
+.link:hover {
+    background-color: #fff;
 }
